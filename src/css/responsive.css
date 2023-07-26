@@ -1,0 +1,25 @@
+@media (max-width:950px) {
+
+    .card-sumario {
+        width: 260px;
+        height: 450px;
+    }
+
+    .titulo-plano {
+        font-size: 16px;
+    }
+
+    .dados-plano {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .icone-musica {
+        width: 40px;
+        height: 40px;
+    }
+
+    button {
+        width: 215px;
+    }
+}

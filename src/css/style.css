@@ -12,16 +12,16 @@ body {
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    height: 460px;
+    width: 290px;
+    height: 435px;
 }
 
-.imagem-ilustrativa .svg-imagem-ilustrativa {
+.card-superior .imagem-ilustrativa {
     border-radius: 10px 10px 0 0;
 
 }
 
-.descricao-plano-completa {
+.card-inferior {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,14 +31,15 @@ body {
     font-family: "Red Hat Display";
 }
 
-.titulo-plano {
+.titulo {
     margin: 10px 10px;
     color: hsl(223, 47%, 23%);
+    font-size: 14px;
     width: 100%;
     font: 900;
 }
 
-.texto-adicional-plano {
+.texto {
     margin: 5px 5px;
     color: hsl(224, 23%, 55%);
     width: 225px;
@@ -49,31 +50,29 @@ body {
 .dados-plano {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: hsl(224, 23%, 55%);
     width: 220px;
     font-size: 12px;
-    padding: 10px 10px;
+    padding: 12px 12px;
     margin: 10px;
     border-radius: 10px;
     background-color: hsl(225, 100%, 98%);
 }
 
-
-
 .modalidade {
-    margin: 6px 55px 0 10px;
+    margin: 6px 65px 0 10px;
     line-height: 15px;
 
 }
 
 .nome-modalidade-plano {
     color: hsl(223, 47%, 23%);
-    display: block;
     font-weight: bold;
 }
 
 .mudar-plano {
-    margin-top: 10px;
+    margin-top: 5px;
     height: 20px;
 }
 
